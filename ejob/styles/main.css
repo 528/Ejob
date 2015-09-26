@@ -1,0 +1,42 @@
+/* 
+    Document   : style
+    Created on : 06-Nov-2010, 22:17:10
+    Author     : Anwar
+    Description:
+        Purpose of the stylesheet follows.
+*/
+/*--------------General-------------*/
+body{width:100%;text-align:center;margin:0;padding:0;font-family:arial,verdana;font-size:10pt;}
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+.body_container{margin:0 auto;width:860px;text-align:left;}
+.toggler { width: 500px; height: 200px; position: relative; }
+
+/*-------------header-------------*/
+.header{height:200px;margin:10px 0;}
+.header a.logo{border:1px solid #000;height:200px;width:200px;display:block;background-image:url("http://localhost/BCS/images/logo1.png")}
+.header ul.header_nav{margin:0;padding:0;list-style:none;}
+.header ul.header_nav li{display:inline-block;margin:0;padding:2px 10px;border:1px solid #000;}
+
+/*-----------Slider------------*/
+.slider{border:1px solid #000;height:200px;margin:5px 0;}
+
+/*--------------Top Menu---------------*/
+ul.top_nav{margin:10px 0;;padding:0;list-style:none;background-color:#2cae53}
+ul.top_nav li{display:inline-block;margin:0;padding:8px 5px;border:1px solid #000;width:150px;text-align:center;margin-right:8px;}
+
+/*---------------Content area------------------*/
+.body_content{margin:5px 0;}
+.body_content .left_side{width:140px;border:1px solid #000;padding:10px;min-height:300px;background-color:#A2ABC0;}
+.body_content .right_side{width:685px;}
+.body_content .right_side .box{border:1px solid #000;width:685px;height:920px;margin-bottom:10px;background-color:#AABDE6;}
+
+/*-------------Footer--------------------------*/
+.footer{border:1px solid #000;height:20px;padding:5px;margin:5px 0;background-color:#AABDE6;}
+
+/*---------Common---------*/
+.fl_left{float: left;}
+.fl_right{float: right;}
+.clear{clear: both;}
+
